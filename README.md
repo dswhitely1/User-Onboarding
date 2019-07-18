@@ -1,4 +1,4 @@
-# Module Project: Advanced Form Management - User Onboarding
+# Module Project: Advanced MyForm Management - User Onboarding
 ## Project Description
 
 We've seen many different styles of form management by now -- simple to complex. Today we are going to unleash your inner form-wizard! 🧙
@@ -10,9 +10,9 @@ We've seen many different styles of form management by now -- simple to complex.
   - `formik`
   - `yup`
   - `axios`
-- [x] Create a component file called `Form.js`, import it into your `App.js` file, and place the component in your JSX there.
+- [x] Create a component file called `MyForm.js`, import it into your `App.js` file, and place the component in your JSX there.
 
-## STEP 1 - Create Your Formik Form
+## STEP 1 - Create Your Formik MyForm
 
 We want to create a form to onboard a new user to our system. We need _at least_ the following pieces of information about our new user:
 
@@ -22,9 +22,9 @@ We want to create a form to onboard a new user to our system. We need _at least_
 - Terms of Service (checkbox)
 - A Submit button to send our form data to the server.
 
-## STEP 2 - Implement Form Validation and Error Messaging
+## STEP 2 - Implement MyForm Validation and Error Messaging
 
-Form validation is one of the facets of an application that makes it feel polished and controlled from a user perspective. With that in mind, implement the following:
+MyForm validation is one of the facets of an application that makes it feel polished and controlled from a user perspective. With that in mind, implement the following:
 
 - Using Yup, set up _at least_ two different validations for each field along with custom error codes that will display on screen when validation fails.
 
